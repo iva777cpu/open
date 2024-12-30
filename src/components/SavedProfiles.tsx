@@ -120,7 +120,6 @@ export const SavedProfiles: React.FC<SavedProfilesProps> = ({ onSelectProfile, o
           onBack={onBack}
           onDeleteSelected={handleDeleteSelected}
         />
-        <h1 className="text-[18px] font-bold text-[#303D24] dark:text-[#EDEDDD]">Profiles</h1>
       </div>
 
       <div className="content-section space-y-2">
