@@ -111,7 +111,7 @@ export const ProfileManager: React.FC<ProfileManagerProps> = ({
         />
         <label 
           htmlFor="firstTime"
-          className="text-[13px] font-semibold text-[#47624B] dark:text-[#EDEDDD]"
+          className="text-sm font-semibold text-[#47624B] dark:text-[#EDEDDD]"
         >
           First time approaching this person?
         </label>

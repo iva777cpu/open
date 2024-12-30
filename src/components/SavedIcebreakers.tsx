@@ -69,7 +69,7 @@ export const SavedIcebreakers: React.FC<SavedIcebreakersProps> = ({ onBack }) =>
           >
             <ArrowLeft className="h-6 w-6" />
           </Button>
-          <h1 className="text-[18px] font-bold text-[#303D24] dark:text-[#EDEDDD]">Saved Icebreakers</h1>
+          <h1 className="text-2xl font-bold text-[#303D24] dark:text-[#EDEDDD]">Saved Icebreakers</h1>
         </header>
 
         {selectedMessages.size > 0 && (
@@ -93,7 +93,7 @@ export const SavedIcebreakers: React.FC<SavedIcebreakersProps> = ({ onBack }) =>
                 onCheckedChange={() => toggleMessageSelection(message.id)}
                 className="mt-1 border-[#EDEDDD]"
               />
-              <p className="flex-grow text-[13px]">{message.message_text}</p>
+              <p className="flex-grow">{message.message_text}</p>
             </div>
           </Card>
         ))}
