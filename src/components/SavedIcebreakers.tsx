@@ -60,7 +60,7 @@ export const SavedIcebreakers: React.FC<SavedIcebreakersProps> = ({ onBack }) =>
   return (
     <section className="space-y-4">
       <div className="section-header">
-        <header className="flex items-center mb-2">
+        <header className="flex items-center mb-2 justify-start">
           <Button
             variant="ghost"
             size="icon"
@@ -69,7 +69,7 @@ export const SavedIcebreakers: React.FC<SavedIcebreakersProps> = ({ onBack }) =>
           >
             <ArrowLeft className="h-6 w-6" />
           </Button>
-          <h1 className="text-2xl font-bold text-[#303D24] dark:text-[#EDEDDD]">Saved Icebreakers</h1>
+          <h1 className="text-[18px] font-bold text-[#303D24] dark:text-[#EDEDDD]">Saved Icebreakers</h1>
         </header>
 
         {selectedMessages.size > 0 && (
@@ -93,7 +93,7 @@ export const SavedIcebreakers: React.FC<SavedIcebreakersProps> = ({ onBack }) =>
                 onCheckedChange={() => toggleMessageSelection(message.id)}
                 className="mt-1 border-[#EDEDDD]"
               />
-              <p className="flex-grow">{message.message_text}</p>
+              <p className="flex-grow text-[15px]">{message.message_text}</p>
             </div>
           </Card>
         ))}

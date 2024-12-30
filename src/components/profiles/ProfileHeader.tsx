@@ -24,7 +24,7 @@ export const ProfileHeader: React.FC<ProfileHeaderProps> = ({
         >
           <ArrowLeft className="h-6 w-6" />
         </Button>
-        <h1 className="text-2xl font-bold text-[#303D24] dark:text-[#EDEDDD]">Profiles</h1>
+        <h1 className="text-[18px] font-bold text-[#303D24] dark:text-[#EDEDDD]">Profiles</h1>
       </header>
 
       {selectedCount > 0 && onDeleteSelected && (
